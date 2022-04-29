@@ -22,7 +22,7 @@ var d = 10;
 canvas.addEventListener("wheel", (e) => {
   if (e.deltaY < 0) {
     cursor -= 10;
-    d -= 10;
+    d -= 10; 
   } else if (e.deltaY > 0) {
     cursor += 10;
     d += 10;
