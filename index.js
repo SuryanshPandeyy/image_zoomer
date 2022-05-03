@@ -11,8 +11,7 @@ var imgWidth = 300;
 var imgHeight = 300;
 
 var img = new Image();
-console.log(imgWidth);
-img.src = "./icon_head.png";
+img.src = "";
 
 x.height = x.width * (img.height / img.width);
 ctx.drawImage(img, 0, 0, imgWidth, imgHeight);
